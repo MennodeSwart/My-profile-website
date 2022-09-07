@@ -8,7 +8,16 @@ box-sizing: border-box;
     font-family: "Montserrat" , sans-serif;
     align-items: center;
     justify-content: center;
-    margin-top: 250px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    background-color: teal;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    color: white;
+    padding: 20px; 
+    width: 600px;   
+    margin-left: 500px;
 }
 nav {
     display: flex;
@@ -45,4 +54,36 @@ nav {
 }
 .nav-links li a.active {
     background-color: #4caf50;
+}
+.linkcollection{
+    font-family: "Montserrat" , sans-serif;
+    font-size: larger;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+    background-color: teal;
+    width: 400px;;
+    color: white;
+}
+.codepractice{
+    padding-left: 35px;
+    font-family: "Montserrat" , sans-serif;
+    background-color: teal;
+    width: 400px;
+    height: 400px;
+    color: white;
+}
+.homeparagraaf1{
+    font-family: "Montserrat" , sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: teal;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    color: white;
+    padding: 20px; 
+    width: 600px;   
+    margin-left: 500px;
 }
