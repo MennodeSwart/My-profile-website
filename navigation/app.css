@@ -17,7 +17,7 @@ box-sizing: border-box;
     color: white;
     padding: 20px; 
     width: 600px;   
-    margin-left: 500px;
+    margin-left: 100px;
 }
 nav {
     display: flex;
@@ -64,6 +64,10 @@ nav {
     background-color: teal;
     width: 400px;;
     color: white;
+   border-top: 2px solid black;
+   border-left: 2px solid black;
+    border-right: 2px solid black;
+    
 }
 .codepractice{
     padding-left: 35px;
@@ -72,11 +76,14 @@ nav {
     width: 400px;
     height: 400px;
     color: white;
+    border-bottom: 2px solid black;
+   border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 .homeparagraaf1{
     font-family: "Montserrat" , sans-serif;
-    align-items: center;
-    justify-content: center;
+   align-items: center;
+   justify-content: center;
     display: flex;
     background-color: teal;
     border-style: solid;
@@ -85,5 +92,41 @@ nav {
     color: white;
     padding: 20px; 
     width: 600px;   
-    margin-left: 500px;
+    margin-left: 100px;
+}
+.blokken{
+    display: inline-block;
+}
+.htmlcode{
+    width: 440px;
+    display: block;
+    margin-left: 1180px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+}
+.vraag{
+    background-color: teal;
+    padding: 10px;
+    font-family: "Montserrat" , sans-serif;
+   align-items: center;
+   justify-content: center;
+   width: 500px;
+   margin-left: 900px;
+   font-size: larger;
+   color: white;
+}
+.antwoord{
+    background-color: rgb(162, 224, 224);
+    padding: 10px;
+    font-family: "Montserrat" , sans-serif;
+   align-items: center;
+   justify-content: center;
+   width: 500px;
+   margin-left: 900px;
+   font-size: larger;
+   color: white;
+}
+.container{
+    display: inline-block;
 }
