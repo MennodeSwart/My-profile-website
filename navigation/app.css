@@ -130,3 +130,6 @@ nav {
 .container{
     display: inline-block;
 }
+body{
+    background-color: rgb(219, 252, 252);
+}
