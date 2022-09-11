@@ -1,8 +1,62 @@
 *{margin:0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Montserrat" , sans-serif;
     }
     
+    .sidebar{
+        position: fixed;
+        width: 60px;
+        height: 100%;
+        background: teal;
+        transition: 0.5s;
+        overflow: hidden;
+     }
+     .sidebar:hover{
+        width: 300px;
+     }
+     .sidebar ul{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+     }
+     .sidebar ul li{
+        position: relative;
+        width: 100%;
+        list-style: none;
+     }
+     .sidebar ul li:hover{
+        background: #4caf50;
+     }
+     .sidebar ul li a{
+          position: relative;
+          display: block;
+          width: 100%;
+          display: flex;
+          text-decoration: none;
+          color: #fff;  
+    }
+    .sidebar ul li a .icon{
+position: relative;
+display: block;
+min-width: 60px;
+height: 60px;
+line-height: 60px;
+text-align: center;
+    }
+    .sidebar ul li a .icon .fa{
+      font-size: 24px;
+    }
+    .sidebar ul li a .title{
+        position: relative;
+        display: block;
+      padding: 0 10px;
+        height: 60px;
+        line-height: 60px;
+        text-align: start;
+        white-space: nowrap;
+    }
     .body-text{
         display: flex;
         font-family: "Montserrat" , sans-serif;
@@ -19,6 +73,7 @@
         width: 600px;   
         margin-left: 100px;
     }
+   
     nav {
         display: flex;
         justify-content: space-around;
@@ -27,6 +82,7 @@
         background-color: teal;
         font-family: "Montserrat" , sans-serif;
     }
+    
     .nav-links   {
         display: flex;
         justify-content: space-around;
@@ -50,36 +106,19 @@
         padding: 14px 16px;
     }
     .nav-links li a: :hover:not(.active) {
-        background-color: lightseagreen;
+        background-color: #4caf50;
     }
     .nav-links li a.active {
         background-color: #4caf50;
     }
-    .linkcollection{
-        font-family: "Montserrat" , sans-serif;
-        font-size: larger;
-        padding-bottom: 20px;
-        padding-left: 10px;
-        padding-top: 20px;
-        background-color: teal;
-        width: 400px;;
-        color: white;
-       border-top: 2px solid black;
-       border-left: 2px solid black;
-        border-right: 2px solid black;
-        
+     .nav-links li ul li{
+        display: none;
     }
-    .codepractice{
-        padding-left: 35px;
-        font-family: "Montserrat" , sans-serif;
-        background-color: teal;
-        width: 400px;
-        height: 400px;
-        color: white;
-        border-bottom: 2px solid black;
-       border-left: 2px solid black;
-        border-right: 2px solid black;
+    .nav-links li:hover ul li{
+        display: block;
     }
+    
+  
     .homeparagraaf1{
         font-family: "Montserrat" , sans-serif;
        align-items: center;
@@ -94,16 +133,18 @@
         width: 600px;   
         margin-left: 100px;
     }
-    .blokken{
-        display: inline-block;
-    }
+    
+    
     .htmlcode{
         width: 440px;
         display: block;
-        margin-left: 1180px;
-        border-style: solid;
+        margin-left: 66%;
+        border-style: solid;    
         border-width: 4px;
         border-color: black;
+    }
+    .hzlogo{
+        margin-left: 10%;
     }
     .vraag{
         background-color: teal;
@@ -131,7 +172,8 @@
         display: inline-block;
     }
     body{
-        background-color: rgb(219, 252, 252);
+    background-image: url("animatedbackground.jpg");
+    background-size: 100%;
     }
     
 .faqblok {
@@ -160,3 +202,54 @@
   .blogmenu:hover .blogmenucontent {
     display: block;
   }
+  .linkcollection{
+    font-family: "Montserrat" , sans-serif;
+    font-size: larger;
+    background-color: teal;
+    width: 600px;;
+    color: white;
+    margin-left: 60%;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+  }
+  #p0{
+    padding-bottom: 20px;
+    padding-top: 5px;
+  }
+  .karakterestiekenlijst{
+    background-color: teal;
+    width: 600px;
+    margin-left: 100px;
+    padding: 20px;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    font-family: "Montserrat" , sans-serif;
+    font-size: larger;
+  }
+  .karakterestiekenlijst li{
+    padding: 10px;
+  }
+.Fritureluur{
+    width: 400px;
+    margin-right: 51px;
+    margin-top: 20px;
+    border: solid black 5px;
+}
+.Huis{
+    width: 400px;
+    margin-left: 50px;
+    border: solid black 5px;
+}
+.Tompoes{
+    width: 400px;
+    margin-top: 150px;
+    margin-right: 50px;
+    border: solid black 5px;
+}
+.groentekstwolkje{
+    width: 30%;
+}
