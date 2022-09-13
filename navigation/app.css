@@ -215,24 +215,7 @@ body {
     display: block;
 }
 
-.blogmenu {
-    position: relative;
-    display: inline-block;
-}
 
-.blogmenucontent {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-.blogmenu:hover .blogmenucontent {
-    display: block;
-}
 
 .linkcollection {
     font-family: "Montserrat", sans-serif;
@@ -294,7 +277,7 @@ body {
 }
 
 .groentekstwolkje {
-    width: 400px;
+    width: 100px;
     margin-left: 200px;
     border: solid black 5px;
 }
@@ -360,4 +343,52 @@ table, th, td{
     
 #homep{
 padding: 20px;
+}
+.progresbarcontainer{
+float: right;
+background-color: teal;
+margin-right: 100px;
+margin-top: 10px;
+border: solid black 2px;
+
+}
+.progresbartitelcontainer{
+    float: right;
+    background-color: teal;
+    margin-right: 100px;
+    margin-top: 50px;
+    border: solid black 2px;
+    color: white;
+
+}
+.progresbartitel{
+    width: 600px;
+    height: 60px;    
+}
+
+
+.progresbar1{
+    width: 600px;
+    height: 40px;
+    background-color: teal;
+}
+
+.progresbar2{
+    width: 500px;
+    height: 40px;
+    background-color: rgb(146, 227, 220);
+    position: absolute;
+    float: right;
+}
+
+.faqplaatje{
+    float: left;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.faqvragen{
+    position: absolute;
+    float: right;
 }
