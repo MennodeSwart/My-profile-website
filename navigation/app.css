@@ -200,7 +200,7 @@ nav {
 
 body {
     background-image: url("animatedbackground.jpg");
-    background-size: cover;
+    background-size: auto%;
     background-repeat: no-repeat;
 }
 
@@ -363,7 +363,14 @@ border: solid black 2px;
 }
 .progresbartitel{
     width: 600px;
-    height: 60px;    
+    height: 80px; 
+    text-align: center;
+    justify-content: center;
+    padding: 8px;
+    font-size: larger;
+}
+#red{
+    color: red;
 }
 
 
@@ -374,11 +381,20 @@ border: solid black 2px;
 }
 
 .progresbar2{
-    width: 500px;
+    width: 0px;
     height: 40px;
     background-color: rgb(146, 227, 220);
     position: absolute;
     float: right;
+}
+
+.divider{
+    height: 40px;
+    width: 2px;
+    background-color: red;
+    position: absolute;
+    float: right;
+    margin-left: 450px;
 }
 
 .faqplaatje{
@@ -392,3 +408,57 @@ border: solid black 2px;
     position: absolute;
     float: right;
 }
+.motivatie{
+    background-color: teal;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
+    border: solid black 2px;
+    width: 600px;
+    position: absolute;
+    float: right;
+    margin-left: 55%;
+    padding: 20px;
+    font-size: larger;
+}
+.motivatie h3{
+    padding: 10px;
+}
+.motivatie p{
+    padding: 10px;
+}
+
+.blogtabel1{
+    height: 300px;
+    position: absolute;
+    float: right;
+    margin-left: 1000px;
+    margin-top: 350px;
+}
+.blogtabel2{
+    height: 300px;
+    position: absolute;
+    float: right;
+    margin-left: 1000px;
+    margin-top: 700px;
+}
+.blogtabel3{
+    height: 300px;
+    position: absolute;
+    float: left;
+}
+.blogtabel4{
+    height: 300px;
+    position: absolute;
+    float: left;
+    margin-top: 350px;
+}
+.blogtabel5{
+    height: 300px;
+    position: absolute;
+    float: left;
+    margin-top: 700px;
+}
+
+
