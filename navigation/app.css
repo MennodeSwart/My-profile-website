@@ -421,6 +421,7 @@ border: solid black 2px;
     margin-left: 55%;
     padding: 20px;
     font-size: larger;
+    text-align: center;
 }
 .motivatie h3{
     padding: 10px;
@@ -433,14 +434,14 @@ border: solid black 2px;
     height: 300px;
     position: absolute;
     float: right;
-    margin-left: 1000px;
+    margin-left: 55%;
     margin-top: 350px;
 }
 .blogtabel2{
     height: 300px;
     position: absolute;
     float: right;
-    margin-left: 1000px;
+    margin-left: 55%;
     margin-top: 700px;
 }
 .blogtabel3{
