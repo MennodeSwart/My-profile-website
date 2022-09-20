@@ -230,7 +230,8 @@ body {
     border-color: black;
     margin-top: 40px;
 }
-.linkcollection li{
+
+.linkcollection li {
     padding: 10px;
 }
 
@@ -282,8 +283,10 @@ body {
     border: solid black 5px;
 }
 
-table, th, td{
-   
+table,
+th,
+td {
+
     color: white;
     border-collapse: collapse;
     border-left: none;
@@ -294,7 +297,8 @@ table, th, td{
     text-align: center;
     justify-content: center;
 }
-.tabel1titel{
+
+.tabel1titel {
     color: white;
     border-collapse: collapse;
     border-left: none;
@@ -309,23 +313,29 @@ table, th, td{
     justify-content: center;
 
 }
-#cyantable{
+
+#cyantable {
     background-color: rgb(146, 227, 220);
 }
-#tealtable{
+
+#tealtable {
     background-color: teal;
 }
-.child{
+
+.child {
     float: left;
 }
-.parrent{
+
+.parrent {
     float: right;
     margin-right: 100px;
 }
-.hzlogo{
+
+.hzlogo {
     float: right;
 }
-.faqpage1{
+
+.faqpage1 {
     font-family: "Montserrat", sans-serif;
     align-items: center;
     justify-content: center;
@@ -340,19 +350,21 @@ table, th, td{
     margin-left: 100px;
     float: left;
 }
-    
-#homep{
-padding: 20px;
+
+#homep {
+    padding: 20px;
 }
-.progresbarcontainer{
-float: right;
-background-color: teal;
-margin-right: 100px;
-margin-top: 10px;
-border: solid black 2px;
+
+.progresbarcontainer {
+    float: right;
+    background-color: teal;
+    margin-right: 100px;
+    margin-top: 10px;
+    border: solid black 2px;
 
 }
-.progresbartitelcontainer{
+
+.progresbartitelcontainer {
     float: right;
     background-color: teal;
     margin-right: 100px;
@@ -361,34 +373,36 @@ border: solid black 2px;
     color: white;
 
 }
-.progresbartitel{
+
+.progresbartitel {
     width: 600px;
-    height: 80px; 
+    height: 80px;
     text-align: center;
     justify-content: center;
     padding: 8px;
     font-size: larger;
 }
-#red{
+
+#red {
     color: red;
 }
 
 
-.progresbar1{
+.progresbar1 {
     width: 600px;
     height: 40px;
     background-color: teal;
 }
 
-.progresbar2{
-    width: 0px;
+.progresbar2 {
+    width: 0x;
     height: 40px;
     background-color: rgb(146, 227, 220);
     position: absolute;
     float: right;
 }
 
-.divider{
+.divider {
     height: 40px;
     width: 2px;
     background-color: red;
@@ -397,18 +411,19 @@ border: solid black 2px;
     margin-left: 450px;
 }
 
-.faqplaatje{
+.faqplaatje {
     float: left;
     position: absolute;
     margin-top: 100px;
     margin-left: 200px;
 }
 
-.faqvragen{
+.faqvragen {
     position: absolute;
     float: right;
 }
-.motivatie{
+
+.motivatie {
     background-color: teal;
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -423,43 +438,47 @@ border: solid black 2px;
     font-size: larger;
     text-align: center;
 }
-.motivatie h3{
-    padding: 10px;
-}
-.motivatie p{
+
+.motivatie h3 {
     padding: 10px;
 }
 
-.blogtabel1{
+.motivatie p {
+    padding: 10px;
+}
+
+.blogtabel1 {
     height: 300px;
     position: absolute;
     float: right;
     margin-left: 55%;
     margin-top: 350px;
 }
-.blogtabel2{
+
+.blogtabel2 {
     height: 300px;
     position: absolute;
     float: right;
     margin-left: 55%;
     margin-top: 700px;
 }
-.blogtabel3{
+
+.blogtabel3 {
     height: 300px;
     position: absolute;
     float: left;
 }
-.blogtabel4{
+
+.blogtabel4 {
     height: 300px;
     position: absolute;
     float: left;
     margin-top: 350px;
 }
-.blogtabel5{
+
+.blogtabel5 {
     height: 300px;
     position: absolute;
     float: left;
     margin-top: 700px;
 }
-
-
