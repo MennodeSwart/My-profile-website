@@ -5,6 +5,16 @@
     font-family: "Montserrat", sans-serif;
 }
 
+/* This is the background image code */
+
+body {
+    background-image: url("animatedbackground.jpg");
+    background-size: auto%;
+    background-repeat: no-repeat;
+}
+
+/* The sidebar style code */
+
 .sidebar {
     position: fixed;
     width: 60px;
@@ -67,6 +77,8 @@
     white-space: nowrap;
 }
 
+/* This is the standard landing page text style code */
+
 .body-text {
     display: flex;
     font-family: "Montserrat", sans-serif;
@@ -83,6 +95,62 @@
     width: 600px;
     margin-left: 100px;
 }
+
+.homeparagraaf1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    color: white;
+    padding: 20px;
+    width: 600px;
+    margin-left: 100px;
+    height: 470px;
+    float: left;
+}
+
+.linkcollection {
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    background-color: teal;
+    width: 700px;
+    color: white;
+    margin-left: 50%;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-top: 40px;
+}
+
+.linkcollection li {
+    padding: 10px;
+}
+
+#p0 {
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.motivatieVerwijzing{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    background-color: teal;
+    width: 700px;
+    color: white;
+    margin-left: 50%;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-top: 40px;
+}
+/* This is the navagation bar code */
 
 nav {
     display: flex;
@@ -135,24 +203,7 @@ nav {
     display: block;
 }
 
-
-.homeparagraaf1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: larger;
-    align-items: center;
-    justify-content: center;
-    background-color: teal;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    color: white;
-    padding: 20px;
-    width: 600px;
-    margin-left: 100px;
-    height: 470px;
-    float: left;
-}
-
+/* This is the code for the images on the landing page */
 
 .htmlcode {
     width: 500px;
@@ -170,75 +221,9 @@ nav {
     border: 2px solid black;
 }
 
-.vraag {
-    background-color: teal;
-    padding: 10px;
-    font-family: "Montserrat", sans-serif;
-    align-items: center;
-    justify-content: center;
-    width: 500px;
-    margin-left: 900px;
-    font-size: larger;
-    color: white;
-}
-
-.antwoord {
-    background-color: rgb(162, 224, 224);
-    padding: 10px;
-    font-family: "Montserrat", sans-serif;
-    align-items: center;
-    justify-content: center;
-    width: 500px;
-    margin-left: 900px;
-    font-size: larger;
-    color: white;
-}
-
-.container {
-    display: inline-block;
-}
-
-body {
-    background-image: url("animatedbackground.jpg");
-    background-size: auto%;
-    background-repeat: no-repeat;
-}
-
-.faqblok {
-    position: relative;
-    display: inline-block;
-    float: left;
-    margin-right: 100px;
-}
-
-.faqblok:hover .faqblok-dropdown-content {
-    display: block;
-}
 
 
-
-.linkcollection {
-    font-family: "Montserrat", sans-serif;
-    font-size: larger;
-    background-color: teal;
-    width: 700px;
-    color: white;
-    margin-left: 50%;
-    padding: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    margin-top: 40px;
-}
-
-.linkcollection li {
-    padding: 10px;
-}
-
-#p0 {
-    padding-bottom: 20px;
-    padding-top: 5px;
-}
+/* This is the profile page code */
 
 .karakterestiekenlijst {
     background-color: teal;
@@ -277,11 +262,7 @@ body {
     border: solid black 5px;
 }
 
-.groentekstwolkje {
-    width: 100px;
-    margin-left: 200px;
-    border: solid black 5px;
-}
+/* This is the dashboard page code */
 
 table,
 th,
@@ -331,8 +312,51 @@ td {
     margin-right: 100px;
 }
 
+/* This is the hz logo image code */
+
 .hzlogo {
     float: right;
+}
+
+/* This is the FAQ code */
+
+.vraag {
+    background-color: teal;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-left: 900px;
+    font-size: larger;
+    color: white;
+}
+
+.antwoord {
+    background-color: rgb(162, 224, 224);
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-left: 900px;
+    font-size: larger;
+    color: white;
+}
+
+.container {
+    display: inline-block;
+}
+
+.faqblok {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 100px;
+}
+
+.faqblok:hover .faqblok-dropdown-content {
+    display: block;
 }
 
 .faqpage1 {
@@ -422,6 +446,8 @@ td {
     position: absolute;
     float: right;
 }
+
+/* This is the blog page code */
 
 .motivatie {
     background-color: teal;
